@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/meet-chat/static/js/main.d549974b.chunk.js",
-    "main.js.map": "/meet-chat/static/js/main.d549974b.chunk.js.map",
+    "main.js": "/meet-chat/static/js/main.5ba7d8c7.chunk.js",
+    "main.js.map": "/meet-chat/static/js/main.5ba7d8c7.chunk.js.map",
     "runtime-main.js": "/meet-chat/static/js/runtime-main.f3c47f47.js",
     "runtime-main.js.map": "/meet-chat/static/js/runtime-main.f3c47f47.js.map",
     "static/js/2.deecf25f.chunk.js": "/meet-chat/static/js/2.deecf25f.chunk.js",
@@ -14,6 +14,6 @@
   "entrypoints": [
     "static/js/runtime-main.f3c47f47.js",
     "static/js/2.deecf25f.chunk.js",
-    "static/js/main.d549974b.chunk.js"
+    "static/js/main.5ba7d8c7.chunk.js"
   ]
 }
