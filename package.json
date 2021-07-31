@@ -15,9 +15,12 @@
     "@types/react-dom": "^16.9.0",
     "framer-motion": "^4.0.0",
     "react": "^17.0.2",
+    "react-copy-to-clipboard": "^5.0.3",
     "react-dom": "^17.0.2",
     "react-icons": "^3.0.0",
+    "react-markdown": "^6.0.3",
     "react-scripts": "4.0.3",
+    "remark-gfm": "^1.0.0",
     "typescript": "^3.9.5",
     "web-vitals": "^0.2.2"
   },
@@ -41,5 +44,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react-copy-to-clipboard": "^5.0.1",
+    "prettier": "^2.3.2"
   }
 }
