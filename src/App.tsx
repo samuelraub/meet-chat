@@ -1,4 +1,5 @@
 import * as React from "react";
+import "./index.css";
 import { ChangeEvent, useRef, useState } from "react";
 import {
   Box,
@@ -73,9 +74,8 @@ export const App = () => {
           </Box>
           <Box
             padding={"1rem 2rem"}
-            border={"1px solid black"}
-            borderRadius={"6px"}
             minHeight={"5rem"}
+            className={"gradient-border"}
           >
             <div ref={resultBox}>
               <ReactMarkdown
