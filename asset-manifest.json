@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.js": "/meet-chat/static/js/main.af5c92b9.chunk.js",
-    "main.js.map": "/meet-chat/static/js/main.af5c92b9.chunk.js.map",
-    "runtime-main.js": "/meet-chat/static/js/runtime-main.f3c47f47.js",
-    "runtime-main.js.map": "/meet-chat/static/js/runtime-main.f3c47f47.js.map",
-    "static/js/2.fff35f67.chunk.js": "/meet-chat/static/js/2.fff35f67.chunk.js",
-    "static/js/2.fff35f67.chunk.js.map": "/meet-chat/static/js/2.fff35f67.chunk.js.map",
-    "static/js/3.7301c7e6.chunk.js": "/meet-chat/static/js/3.7301c7e6.chunk.js",
-    "static/js/3.7301c7e6.chunk.js.map": "/meet-chat/static/js/3.7301c7e6.chunk.js.map",
+    "main.css": "/meet-chat/static/css/main.4189f3af.chunk.css",
+    "main.js": "/meet-chat/static/js/main.bf3501bb.chunk.js",
+    "main.js.map": "/meet-chat/static/js/main.bf3501bb.chunk.js.map",
+    "runtime-main.js": "/meet-chat/static/js/runtime-main.70c8198f.js",
+    "runtime-main.js.map": "/meet-chat/static/js/runtime-main.70c8198f.js.map",
+    "static/js/2.f3f1a192.chunk.js": "/meet-chat/static/js/2.f3f1a192.chunk.js",
+    "static/js/2.f3f1a192.chunk.js.map": "/meet-chat/static/js/2.f3f1a192.chunk.js.map",
+    "static/js/3.0ddd11a6.chunk.js": "/meet-chat/static/js/3.0ddd11a6.chunk.js",
+    "static/js/3.0ddd11a6.chunk.js.map": "/meet-chat/static/js/3.0ddd11a6.chunk.js.map",
     "index.html": "/meet-chat/index.html",
-    "static/js/2.fff35f67.chunk.js.LICENSE.txt": "/meet-chat/static/js/2.fff35f67.chunk.js.LICENSE.txt"
+    "static/css/main.4189f3af.chunk.css.map": "/meet-chat/static/css/main.4189f3af.chunk.css.map",
+    "static/js/2.f3f1a192.chunk.js.LICENSE.txt": "/meet-chat/static/js/2.f3f1a192.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f3c47f47.js",
-    "static/js/2.fff35f67.chunk.js",
-    "static/js/main.af5c92b9.chunk.js"
+    "static/js/runtime-main.70c8198f.js",
+    "static/js/2.f3f1a192.chunk.js",
+    "static/css/main.4189f3af.chunk.css",
+    "static/js/main.bf3501bb.chunk.js"
   ]
 }
