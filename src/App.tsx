@@ -5,13 +5,13 @@ import {
   Button,
   ChakraProvider,
   Divider,
-  Grid,
   Heading,
   Input,
+  SimpleGrid,
   Textarea,
   theme,
 } from "@chakra-ui/react";
-import { CopyIcon, CheckIcon } from "@chakra-ui/icons";
+import { CheckIcon, CopyIcon } from "@chakra-ui/icons";
 import ReactMarkdown from "react-markdown";
 import gfm from "remark-gfm";
 import CopyToClipboard from "react-copy-to-clipboard";
@@ -56,8 +56,12 @@ export const App = () => {
     <ChakraProvider theme={theme}>
       <Box textAlign="left" fontSize="xl">
         <Heading textAlign={"center"}>🤝 Meet Chat Formatter</Heading>
-        <Grid padding={"5rem"} templateColumns={"1fr 1fr"} gap={"1rem"}>
-          <Box>
+        <SimpleGrid
+          padding={["1rem", null, "5rem"]}
+          columns={[1, null, 2]}
+          spacing={"1rem"}
+        >
+          <Box minHeight={"5rem"}>
             <Textarea
               placeholder={"Paste Google Meet Chat"}
               variant={"filled"}
@@ -71,6 +75,7 @@ export const App = () => {
             padding={"1rem 2rem"}
             border={"1px solid black"}
             borderRadius={"6px"}
+            minHeight={"5rem"}
           >
             <div ref={resultBox}>
               <ReactMarkdown
@@ -89,18 +94,27 @@ export const App = () => {
           </Box>
           <Box></Box>
           <Box>
-            <Button leftIcon={<CopyIcon />} onClick={handleClick}>
+            <Button
+              leftIcon={<CopyIcon />}
+              onClick={handleClick}
+              marginRight={"1rem"}
+              marginBottom={"1rem"}
+            >
               Copy formatted
             </Button>
             <CopyToClipboard text={output}>
-              <Button leftIcon={<CopyIcon />} marginLeft={"1rem"}>
+              <Button leftIcon={<CopyIcon />} marginBottom={"1rem"}>
                 Copy markdown
               </Button>
             </CopyToClipboard>
           </Box>
-        </Grid>
+        </SimpleGrid>
         <Divider />
-        <Grid padding={"2rem 5rem"} templateColumns={"1fr 1fr"} gap={"1rem"}>
+        <SimpleGrid
+          padding={["1rem", null, "5rem"]}
+          columns={[1, null, 2]}
+          spacing={"1rem"}
+        >
           <Box>
             <Input
               variant={"filled"}
@@ -131,7 +145,7 @@ export const App = () => {
               Confirm
             </Button>
           </Box>
-        </Grid>
+        </SimpleGrid>
       </Box>
     </ChakraProvider>
   );
