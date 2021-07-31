@@ -54,7 +54,7 @@ export const App = () => {
 
   return (
     <ChakraProvider theme={theme}>
-      <Box textAlign="left" fontSize="xl" background={"white"}>
+      <Box textAlign="left" fontSize="xl">
         <Heading textAlign={"center"}>🤝 Meet Chat Formatter</Heading>
         <Grid padding={"5rem"} templateColumns={"1fr 1fr"} gap={"1rem"}>
           <Box>
@@ -67,7 +67,11 @@ export const App = () => {
               padding={"1rem"}
             />
           </Box>
-          <Box padding={"1rem 2rem"} background={"gray.100"}>
+          <Box
+            padding={"1rem 2rem"}
+            border={"1px solid black"}
+            borderRadius={"6px"}
+          >
             <div ref={resultBox}>
               <ReactMarkdown
                 components={{
